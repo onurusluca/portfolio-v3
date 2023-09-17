@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
-  '@fontsource/jetbrains-mono':
-    specifier: ^5.0.12
-    version: 5.0.12
   '@fontsource/nunito-sans':
     specifier: ^4.5.10
     version: 4.5.10
@@ -299,10 +296,6 @@ packages:
   /@eslint/js@8.49.0:
     resolution: {integrity: sha512-1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    dev: true
-
-  /@fontsource/jetbrains-mono@5.0.12:
-    resolution: {integrity: sha512-BO2in8zNXWUn1TJsPWgL2qSMYU2SQKoKOmJ9FRrE9gMFtPhEDKgxc0hUCVmeDUcMFrafFEn+KqZ5a85z8rwMzA==}
     dev: true
 
   /@fontsource/nunito-sans@4.5.10:
