@@ -1,6 +1,16 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/logo.png';
+	import LocalesDropdown from '$lib/components/locales-dropdown.svelte';
+	import { t, locale, locales } from '$lib/locales/i18n';
+
+	/**
+	 * Handle change of the locale.
+	 * @param {CustomEvent<string>} event
+	 */
+	function handleChange(event) {
+		$locale = event.detail;
+	}
 </script>
 
 <header>
@@ -18,6 +28,12 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
+			<!-- Border -->
+			<span class="seperator" />
+			<li>
+				<!-- Change language -->
+				<LocalesDropdown bind:selected={$locale} options={locales} on:change={handleChange} />
+			</li>
 		</ul>
 	</nav>
 </header>
@@ -32,16 +48,20 @@
 		// border-bottom: 1px solid var(--accent);
 
 		.logo {
-			width: 3rem;
-			height: 3rem;
-
 			a {
-				height: 100%;
+				width: 3rem;
+				height: 3rem;
 
 				img {
 					width: inherit;
 					height: inherit;
 					object-fit: contain;
+					opacity: 0.8;
+
+					transition: opacity 0.1s ease-in-out;
+					&:hover {
+						opacity: 1;
+					}
 				}
 			}
 		}
@@ -67,11 +87,19 @@
 					height: 100%;
 					color: #fff;
 					text-decoration: none;
+					transition: color 0.1s ease-in-out;
 
 					&:hover {
 						color: var(--accent-2);
 					}
 				}
+			}
+
+			.seperator {
+				width: 1px;
+				height: 1rem;
+				background-color: #fff;
+				opacity: 0.5;
 			}
 		}
 

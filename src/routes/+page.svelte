@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/locales/i18n';
 </script>
 
 <svelte:head>
@@ -9,6 +10,7 @@
 <section class="main">
 	<h1>hey, I'm Onur 👋</h1>
 	<p>I do web stuff. I'm a web developer and designer.</p>
+	<h1>{$t('homepage.title')}!</h1>
 
 	<br />
 </section>
