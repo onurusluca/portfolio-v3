@@ -3,6 +3,11 @@
 	import './styles.scss';
 	import Blob from '../lib/images/blob.svelte';
 
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
+
 	//	import { t, locale, locales } from '$lib/locales/i18n';
 </script>
 
