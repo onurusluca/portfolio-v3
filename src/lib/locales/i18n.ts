@@ -27,13 +27,13 @@ export const locales = Object.keys(translations);
 function translate(locale, key, vars) {
 	// Let's throw some errors if we're trying to use keys/locales that don't exist.
 	// We could improve this by using Typescript and/or fallback values.
-	if (!key) throw new Error('no key provided to $t()');
-	if (!locale) throw new Error(`no translation for key "${key}"`);
+	if (!key) throw new console.log('no key provided to $t()');
+	if (!locale) throw new console.log(`no translation for key "${key}"`);
 
 	// Grab the translation from the translations object.
 	let text = translations[locale][key];
 
-	if (!text) throw new Error(`no translation found for ${locale}.${key}`);
+	if (!text) throw new console.log(`no translation found for ${locale}.${key}`);
 
 	// Replace any passed in variables in the translation string.
 	Object.keys(vars).map((k) => {

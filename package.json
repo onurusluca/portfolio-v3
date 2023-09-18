@@ -26,5 +26,8 @@
 		"typescript": "^5.2.2",
 		"vite": "^4.4.9"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/noto-sans-jp": "^5.0.11"
+	}
 }

@@ -23,13 +23,17 @@
 	<nav>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">
+					{$t('nav.home')}
+				</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+				<a href="/about">
+					{$t('nav.about')}
+				</a>
 			</li>
 			<!-- Border -->
-			<span class="seperator" />
+			<li><span class="separator" /></li>
 			<li>
 				<!-- Change language -->
 				<LocalesDropdown bind:selected={$locale} options={locales} on:change={handleChange} />
@@ -49,8 +53,8 @@
 
 		.logo {
 			a {
-				width: 3rem;
-				height: 3rem;
+				width: 3.5rem;
+				height: 3.5rem;
 
 				img {
 					width: inherit;
@@ -93,13 +97,11 @@
 						color: var(--accent-2);
 					}
 				}
-			}
-
-			.seperator {
-				width: 1px;
-				height: 1rem;
-				background-color: #fff;
-				opacity: 0.5;
+				.separator {
+					border: 1px solid #fff;
+					width: 1px;
+					opacity: 0.2;
+				}
 			}
 		}
 

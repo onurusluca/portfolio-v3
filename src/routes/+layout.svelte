@@ -2,8 +2,8 @@
 	import Header from './Header.svelte';
 	import './styles.scss';
 	import Blob from '../lib/images/blob.svelte';
-	/* 	import { t, locale, locales } from '$lib/locales/i18n';
-	 */
+
+	//	import { t, locale, locales } from '$lib/locales/i18n';
 </script>
 
 <div class="app">

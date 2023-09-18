@@ -1,9 +1,13 @@
-@import '@fontsource/nunito-sans';
+/* @import '@fontsource/nunito-sans/400.css';
+@import '@fontsource/nunito-sans/700.css';
+ */
+@import "@fontsource/noto-sans-jp/400.css";
+@import "@fontsource/noto-sans-jp/700.css";
 
 :root {
    /* 	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-   --font: 'Nunito Sans', monospace;
+   --font: 'Noto Sans JP', sans-serif;
    --color-text: #f0f0f0;
    --accent: #01ff70;
    --accent-2: rgb(255, 83, 83);
@@ -38,8 +42,53 @@ body {
       height: 100%;
       z-index: -1;
    }
-
 }
+
+/* * {
+   &:focus {
+      outline: none;
+
+      box-shadow: 0 0 0 2px var(--accent-2);
+   }
+} */
+
+// Selection
+::selection {
+   background-color: var(--accent-2);
+}
+
+
+/* // Scrollbar
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--accent);
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: var(--accent);
+}
+
+// Scrollbar for Firefox
+html {
+   scrollbar-color: var(--accent) #000000;
+}
+
+body::-webkit-scrollbar {
+   width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+   background: #000000;
+} */
+
+
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 

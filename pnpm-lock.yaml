@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@fontsource/noto-sans-jp':
+    specifier: ^5.0.11
+    version: 5.0.11
+
 devDependencies:
   '@fontsource/nunito-sans':
     specifier: ^4.5.10
@@ -297,6 +302,10 @@ packages:
     resolution: {integrity: sha512-1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/noto-sans-jp@5.0.11:
+    resolution: {integrity: sha512-pAV8dQmUFE9KeeFT4rx39q1tCwWX/B+mkPG6X1QtnQIwWPtU4Me0w8und4LjQYaJnfqNxHrgN+uWufXx6loHng==}
+    dev: false
 
   /@fontsource/nunito-sans@4.5.10:
     resolution: {integrity: sha512-GVKc3mEfnk3fLEuiQXNYhlP/Z9SrCgD831xZJ7J+6OgFzEf6LNnyHPiqWfjW671sAmOBQTLgm/21z78K/beWEw==}

@@ -85,6 +85,7 @@
 	.dropdown-container {
 		position: relative;
 		cursor: pointer;
+		user-select: none;
 
 		.dropdown-display {
 			color: #fff;
