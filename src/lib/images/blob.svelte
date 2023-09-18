@@ -5,7 +5,7 @@
 	width="100%"
 	id="blobSvg"
 	style="opacity: 1;"
-	filter="blur(7.6px)"
+	filter="blur(20px)"
 	transform="rotate(0)"
 >
 	<defs>

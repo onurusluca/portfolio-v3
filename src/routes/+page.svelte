@@ -7,12 +7,10 @@
 </svelte:head>
 
 <section class="main">
-	<h1>Hey! I'm Onur 👋</h1>
-	<p>
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio sint, tempore saepe alias quis
-		nam velit at voluptatibus a, autem animi error voluptatem, nemo recusandae dolores quos
-		consequatur laborum unde!
-	</p>
+	<h1>hey, I'm Onur 👋</h1>
+	<p>I do web stuff. I'm a web developer and designer.</p>
+
+	<br />
 </section>
 
 <style lang="scss">

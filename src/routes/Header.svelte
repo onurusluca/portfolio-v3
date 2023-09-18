@@ -74,5 +74,9 @@
 				}
 			}
 		}
+
+		@media (max-width: 768px) {
+			height: max-content;
+		}
 	}
 </style>
