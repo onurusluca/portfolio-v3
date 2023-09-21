@@ -9,6 +9,8 @@
 	import kaidan from '../lib/assets/images/projects/kaidan.png';
 
 	import ennka from '../lib/assets/images/projects/ennka.png';
+	import ohbento from '../lib/assets/images/projects/ohbento.png';
+	import sosyal from '../lib/assets/images/projects/sosyal.png';
 </script>
 
 <svelte:head>
@@ -49,6 +51,21 @@
 	</div>
 
 	<h2>{$t('home.myDesigns')}</h2>
+
+	<div class="hobby-projects">
+		<a
+			href="https://www.figma.com/file/EZLvdvFgHZ7O7mXPaeUJfD/Ennka---Japanese-Enka-Music--Platform-Concept--(%E6%BC%94%E6%AD%8C%E9%9F%B3%E6%A5%BD%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0)-Spotify-Clone?type=design&mode=design"
+			><img class="atsumari-demo-img" src={ennka} alt="Ennka" />
+		</a>
+		<a
+			href="https://www.figma.com/file/Ltj16yqUVXDgjXWlzeAhWC/OhBento!---Japanese-Bentou-Shopping-Concept-App-(%E3%81%8A%E5%BC%81%E5%BD%93%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%82%B3%E3%83%B3%E3%82%BB%E3%83%97%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA)?type=design&mode=design"
+			><img class="atsumari-demo-img" src={ohbento} alt="Ohbento" />
+		</a>
+		<a
+			href="https://www.figma.com/file/4Oihnv3HYx5UEEOGAWGIbr/Sosyal---Social-Media-Clones-(%E3%82%BD%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3)?type=design&mode=design"
+			><img class="atsumari-demo-img" src={sosyal} alt="Sosyal" />
+		</a>
+	</div>
 </section>
 
 <style lang="scss">
@@ -68,6 +85,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+			flex-wrap: wrap;
 			gap: 0.5rem;
 			img {
 				width: 21rem;
@@ -78,6 +96,11 @@
 				transition: opacity 0.2s ease-in-out;
 				&:hover {
 					opacity: 1;
+				}
+			}
+			@media (max-width: 768px) {
+				img {
+					width: 100%;
 				}
 			}
 		}
@@ -103,6 +126,11 @@
 				transition: opacity 0.2s ease-in-out;
 				&:hover {
 					opacity: 1;
+				}
+			}
+			@media (max-width: 768px) {
+				img {
+					width: 100%;
 				}
 			}
 		}
