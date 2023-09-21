@@ -110,12 +110,14 @@
 			z-index: 10;
 
 			.dropdown-option {
+				border-radius: 4px;
+
 				padding: 8px;
 				cursor: pointer;
 				transition: all 0.1s ease-in-out;
 
 				&:hover {
-					background-color: var(--accent-2);
+					background-color: rgb(78, 78, 78);
 					color: #fff;
 				}
 			}

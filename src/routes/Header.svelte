@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/logo.png';
+	import logo from '$lib/assets/images/logo.png';
 	import LocalesDropdown from '$lib/components/locales-dropdown.svelte';
 	import { t, locale, locales } from '$lib/locales/i18n';
 
@@ -98,9 +98,8 @@
 					}
 				}
 				.separator {
-					border: 1px solid #fff;
+					border: 1px solid #ffffff3a;
 					width: 1px;
-					opacity: 0.2;
 				}
 			}
 		}

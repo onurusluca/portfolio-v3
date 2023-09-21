@@ -1,7 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.scss';
-	import Blob from '../lib/images/blob.svelte';
+	import Blob from '../lib/assets/images/blob.svelte';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
@@ -36,11 +36,11 @@
 
 		.blob {
 			position: absolute;
-			right: -5rem;
-			top: 5rem;
+			right: -6rem;
+			top: 2rem;
 
-			width: 35rem;
-			height: 35rem;
+			width: 30rem;
+			height: 30rem;
 			z-index: -2;
 			opacity: 0.3;
 		}

@@ -42,6 +42,25 @@ body {
    }
 }
 
+a {
+   font-weight: bold;
+   color: var(--accent);
+   text-decoration: underline;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 2px;
+
+   &:hover {
+      color: var(--accent-2);
+   }
+
+
+}
+
+hr {
+   border: 1px solid #ffffff15;
+   margin: 1rem 0;
+}
+
 /* * {
    &:focus {
       outline: none;

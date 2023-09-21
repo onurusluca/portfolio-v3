@@ -1,0 +1,19 @@
+{
+	"home": {
+		"hey": "Hey, I'm Onur 👋",
+		"intro": "I am front-end developer and designer.",
+		"currentlyWorkingOn": "I'm currently working on",
+		"atsumariDescription": "A virtual gathering space where office workers, students, and event participants can gather, talk, share, and collaborate.",
+		"myProjects": "Hobby Projects",
+		"myDesigns": "Designs",
+
+		"title": "Onur Usluca | Web developer / designer"
+	},
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact",
+		"projects": "Projects",
+		"resume": "Resume"
+	}
+}
