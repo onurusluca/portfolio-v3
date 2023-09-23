@@ -19,14 +19,8 @@
 		<div class="blob"><Blob /></div>
 	</main>
 
-	<footer>
-		<!-- Change language -->
-		<!-- 		<select bind:value={$locale}>
-			{#each locales as l}
-				<option value={l}>{l}</option>
-			{/each}
-		</select> -->
-	</footer>
+	<!-- 	<footer>
+	</footer> -->
 </div>
 
 <style lang="scss">
@@ -57,11 +51,8 @@
 			}
 		}
 
-		footer {
-			position: absolute;
-			bottom: 0;
+		/* footer {
 
-			padding: 1rem;
-		}
+		} */
 	}
 </style>
