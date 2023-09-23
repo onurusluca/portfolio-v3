@@ -74,7 +74,13 @@
 					role="option"
 					aria-selected={selected === option}
 				>
-					{option}
+					{option === 'en'
+						? 'English'
+						: option === 'tr'
+						? 'Türkçe'
+						: option === 'ja'
+						? '日本語'
+						: ''}
 				</div>
 			{/each}
 		</div>
@@ -100,13 +106,12 @@
 		.dropdown-options {
 			position: absolute;
 			top: 100%;
-			left: -0.7rem;
+			left: -1.6rem;
 			margin-top: 0.5rem;
-			width: 2.5rem;
 			text-align: center;
-			border: 1px solid #aaa;
+			border: 2px solid #aaa;
 			background-color: #1f1f1f;
-			border-radius: 4px;
+			border-radius: 6px;
 			z-index: 10;
 
 			.dropdown-option {

@@ -25,7 +25,7 @@
 	<p>{$t('home.intro')}</p>
 	<p class="currently-working-on">
 		{$t('home.currentlyWorkingOn')}
-		<a href="https://atsumari.vercel.app/" target="_blank">Atsumari</a> -
+		<a href="/atsumari">Atsumari</a> -
 		<i>{$t('home.atsumariDescription')}</i>
 	</p>
 
@@ -33,7 +33,22 @@
 		<img class="atsumari-demo-img" src={atsumari} alt="Atsumari demo" />
 		<img class="atsumari-demo-img" src={atsumari2} alt="Atsumari demo" />
 	</div>
+
 	<hr />
+
+	<div class="technologies">
+		<h2>{$t('home.technologiesTitle')}</h2>
+		<ul class="technologies">
+			<li class="technolgy">Vue 3</li>
+			<li class="technolgy">Nuxt 3</li>
+			<li class="technolgy">Svelte</li>
+			<li class="technolgy">Vite 4</li>
+			<li class="technolgy">Tailwind</li>
+		</ul>
+	</div>
+
+	<hr />
+
 	<h2>{$t('home.myProjects')}</h2>
 	<div class="hobby-projects">
 		<a href="https://github.com/onurusluca/denmou-company">
@@ -49,6 +64,8 @@
 			><img class="atsumari-demo-img" src={kaidan} alt="Kaidan" />
 		</a>
 	</div>
+
+	<hr />
 
 	<h2>{$t('home.myDesigns')}</h2>
 
@@ -78,7 +95,7 @@
 
 		.currently-working-on {
 			line-height: 1.3rem;
-			margin-bottom: 2rem;
+			margin: 2rem 0 1rem 0;
 		}
 
 		.atsumari {
@@ -102,6 +119,17 @@
 				img {
 					width: 100%;
 				}
+			}
+		}
+
+		.technologies {
+			list-style: square;
+			list-style-position: inside;
+			margin: 0;
+			padding: 0;
+
+			.technolgy {
+				font-size: 14px;
 			}
 		}
 

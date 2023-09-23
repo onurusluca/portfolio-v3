@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/assets/images/logo.png';
-	import LocalesDropdown from '$lib/components/locales-dropdown.svelte';
+	import LocalesDropdown from '$lib/components/LocalesDropDown.svelte';
 	import { t, locale, locales } from '$lib/locales/i18n';
 
 	/**
@@ -28,8 +28,8 @@
 				</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">
-					{$t('nav.about')}
+				<a href="/blog">
+					{$t('nav.blog')}
 				</a>
 			</li>
 			<!-- Border -->
@@ -57,8 +57,8 @@
 				height: 3.5rem;
 
 				img {
-					width: inherit;
-					height: inherit;
+					width: 3.5rem;
+					height: 3.5rem;
 					object-fit: contain;
 					opacity: 0.8;
 
@@ -76,7 +76,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			gap: 1rem;
+			gap: 1.5rem;
 			list-style: none;
 
 			li {
@@ -89,7 +89,7 @@
 					align-items: center;
 					justify-content: center;
 					height: 100%;
-					color: #fff;
+					color: var(--text-color);
 					text-decoration: none;
 					transition: color 0.1s ease-in-out;
 

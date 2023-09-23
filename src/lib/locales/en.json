@@ -1,9 +1,12 @@
 {
 	"home": {
 		"hey": "Hey, I'm Onur 👋",
-		"intro": "I am front-end developer and designer.",
+		"intro": "I am front-end developer and designer with a passion for creating beautiful and functional user experiences. I have more than 5 years of experience in web development and design. I love to learn new things and share my knowledge with others. ",
 		"currentlyWorkingOn": "I'm currently working on",
 		"atsumariDescription": "A virtual gathering space where office workers, students, and event participants can gather, talk, share, and collaborate.",
+
+		"technologiesTitle": "Tech Stack",
+
 		"myProjects": "Hobby Projects",
 		"myDesigns": "Designs",
 
@@ -11,7 +14,7 @@
 	},
 	"nav": {
 		"home": "Home",
-		"about": "About",
+		"blog": "Blog",
 		"contact": "Contact",
 		"projects": "Projects",
 		"resume": "Resume"

@@ -1,5 +1,5 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from '../lib/components/Header.svelte';
 	import './styles.scss';
 	import Blob from '../lib/assets/images/blob.svelte';
 
