@@ -56,18 +56,12 @@
 			<a
 				href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL"
 			>
-				WebGL
-			</a>,
-
-			<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API"> WebRTC </a>
+				WebGL</a
+			>,
+			<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a>
 			{$t('misc.and')}
 
-			<a
-				href="			https://bun.sh/
-			L"
-			>
-				Bun
-			</a>.
+			<a href="https://bun.sh/L">Bun</a>.
 		</p>
 	</div>
 
