@@ -1,5 +1,7 @@
 <script>
 	import { t } from '$lib/locales/i18n';
+	import JapanFlagIcon from '../lib/components/icons/JapanFlag.svelte';
+
 	import atsumari from '../lib/assets/images/projects/atsumari/atsumari.png';
 	import atsumari2 from '../lib/assets/images/projects/atsumari/atsumari-2.png';
 
@@ -22,7 +24,15 @@
 
 <section class="main">
 	<h1>{$t('home.hey')}</h1>
-	<p>{$t('home.intro')}</p>
+	<p>
+		{$t('home.intro')}
+	</p>
+	<p>
+		{$t('home.intro2')}<span class="flag-icon">
+			<JapanFlagIcon />
+		</span>
+	</p>
+
 	<p class="currently-working-on">
 		{$t('home.currentlyWorkingOn')}
 		<a href="/atsumari">Atsumari</a> -
@@ -36,15 +46,29 @@
 
 	<hr />
 
-	<div class="technologies">
-		<h2>{$t('home.technologiesTitle')}</h2>
-		<ul class="technologies">
-			<li class="technolgy">Vue 3</li>
-			<li class="technolgy">Nuxt 3</li>
-			<li class="technolgy">Svelte</li>
-			<li class="technolgy">Vite 4</li>
-			<li class="technolgy">Tailwind</li>
-		</ul>
+	<div class="tech-stack">
+		<h2>{$t('home.techStackTitle')}</h2>
+		<p>
+			{$t('home.techStackDescription')}
+		</p>
+		<p>
+			{$t('home.techStackDescription2')}
+			<a
+				href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL"
+			>
+				WebGL
+			</a>,
+
+			<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API"> WebRTC </a>
+			{$t('misc.and')}
+
+			<a
+				href="			https://bun.sh/
+			L"
+			>
+				Bun
+			</a>.
+		</p>
 	</div>
 
 	<hr />
@@ -93,6 +117,12 @@
 			font-size: 20px;
 		}
 
+		.flag-icon {
+			display: inline-block;
+			margin-left: 0.5rem;
+			vertical-align: middle;
+		}
+
 		.currently-working-on {
 			line-height: 1.3rem;
 			margin: 2rem 0 1rem 0;
@@ -121,16 +151,24 @@
 				}
 			}
 		}
+		.tech-stack {
+			/* 		.technologies-wrapper {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 2rem;
 
-		.technologies {
-			list-style: square;
-			list-style-position: inside;
-			margin: 0;
-			padding: 0;
+				.technologies {
+					list-style: square;
+					list-style-position: inside;
+					margin: 0;
+					padding: 0;
+					line-height: 1.1rem;
 
-			.technolgy {
-				font-size: 14px;
-			}
+					.technology {
+						font-size: 15px;
+					}
+				}
+			} */
 		}
 
 		h2 {

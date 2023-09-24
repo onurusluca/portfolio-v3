@@ -1,11 +1,14 @@
 {
 	"home": {
 		"hey": "Hey, I'm Onur 👋",
-		"intro": "I am front-end developer and designer with a passion for creating beautiful and functional user experiences. I have more than 5 years of experience in web development and design. I love to learn new things and share my knowledge with others. ",
+		"intro": "I am front-end developer and designer with a passion for creating beautiful and functional user experiences. I have more than 5 years of experience in web development and design.",
+		"intro2": "I speak Turkish, English, and Japanese. I'm based in Tokyo, Japan.",
 		"currentlyWorkingOn": "I'm currently working on",
 		"atsumariDescription": "A virtual gathering space where office workers, students, and event participants can gather, talk, share, and collaborate.",
 
-		"technologiesTitle": "Tech Stack",
+		"techStackTitle": "Tech Stack",
+		"techStackDescription": "I mostly use Vue, Vite, TypeScript, SASS, and Supabase to build web applications. But I work with a wide range of technologies and tools like Nuxt, Svelte, Tailwind, Figma... ",
+		"techStackDescription2": "I'm always learning new things and experimenting with new technologies. I'm currently tinkering with",
 
 		"myProjects": "Hobby Projects",
 		"myDesigns": "Designs",
@@ -18,5 +21,9 @@
 		"contact": "Contact",
 		"projects": "Projects",
 		"resume": "Resume"
+	},
+
+	"misc": {
+		"and": "and"
 	}
 }

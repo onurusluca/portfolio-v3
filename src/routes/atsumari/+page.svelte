@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>Atsumari</title>
+	<meta name="description" content="Atsumari" />
 </svelte:head>
 
-<div class="text-column">wow such about page very svelte much routing wow</div>
+<div class="text-column">Atsumari</div>
