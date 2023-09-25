@@ -7,8 +7,8 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
    --font: 'Nunito Sans', sans-serif;
    --color-text: #f0f0f0;
-   --accent: #00d35c;
-   --accent-2: #da4343;
+   --accent: #00be53;
+   --accent-2: #be3838;
 
    font-family: var(--font);
    color: var(--color-text);
@@ -48,16 +48,13 @@ body {
 
 a {
    color: var(--accent);
-   text-decoration: none;
-   /*  text-decoration: underline;
-   text-decoration-thickness: 2px;
-   text-underline-offset: 2px; */
-   transition: all 0.2s ease-in-out;
+   text-decoration: underline;
+   text-underline-offset: 2px;
 
    &:hover {
-      text-decoration: underline;
+      color: var(--accent-2);
       text-decoration-thickness: 2px;
-      text-underline-offset: 2px;
+
    }
 
 

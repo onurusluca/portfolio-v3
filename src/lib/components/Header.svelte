@@ -106,6 +106,12 @@
 
 		@media (max-width: 768px) {
 			height: max-content;
+
+			padding: 0 2rem;
+		}
+
+		@media (max-width: 576px) {
+			padding: 0 1rem;
 		}
 	}
 </style>

@@ -58,7 +58,7 @@
 			>
 				WebGL</a
 			>,
-			<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a>,
 			{$t('misc.and')}
 
 			<a href="https://bun.sh/L">Bun</a>.
@@ -119,14 +119,13 @@
 
 		.currently-working-on {
 			line-height: 1.3rem;
-			margin: 2rem 0 1rem 0;
+			margin: 1rem 0 1rem 0;
 		}
 
 		.atsumari {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			flex-wrap: wrap;
 			gap: 0.5rem;
 			img {
 				width: 21rem;
@@ -135,11 +134,22 @@
 				opacity: 0.8;
 
 				transition: opacity 0.2s ease-in-out;
+				border: 1px solid var(--accent);
 				&:hover {
 					opacity: 1;
 				}
 			}
 			@media (max-width: 768px) {
+				img {
+					width: 50%;
+				}
+			}
+
+			@media (max-width: 480px) {
+				// Responsive grid 1 column
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+
 				img {
 					width: 100%;
 				}
@@ -174,23 +184,49 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			flex-wrap: wrap;
 			gap: 0.5rem;
-			cursor: pointer;
-			img {
-				width: 21rem;
-				height: auto;
-				border-radius: 0.4rem;
-				opacity: 0.8;
+			flex-wrap: wrap;
+			width: 100%;
+			a {
+				img {
+					width: 21rem;
+					height: 12.5rem;
+					object-fit: cover;
+					border-radius: 0.4rem;
+					opacity: 0.8;
+					border: 1px solid var(--accent);
 
-				transition: opacity 0.2s ease-in-out;
-				&:hover {
-					opacity: 1;
+					cursor: pointer;
+					transition: opacity 0.2s ease-in-out;
+					&:hover {
+						opacity: 1;
+					}
 				}
 			}
 			@media (max-width: 768px) {
-				img {
+				// Responsive grid 2 columns
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 0.5rem;
+
+				a {
+					img {
+						width: 100%;
+					}
+				}
+			}
+
+			@media (max-width: 576px) {
+				// Responsive grid 1 column
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+				a {
 					width: 100%;
+
+					img {
+						width: 100%;
+						height: auto;
+					}
 				}
 			}
 		}
