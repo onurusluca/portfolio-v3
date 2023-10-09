@@ -2,7 +2,7 @@
 	"home": {
 		"hey": "Hey, I'm Onur 👋",
 		"intro": "A front-end developer and designer with more than 5 years of experience in web development and design.",
-		"intro2": "I speak Turkish, English, and Japanese. I'm based in Tokyo, Japan.",
+		"intro2": "I speak Turkish, English, and Japanese. I am currently living in Tokyo, Japan.",
 		"currentlyWorkingOn": "I'm currently working on",
 		"atsumariDescription": "A virtual gathering space where office workers, students, and event participants can gather, talk, share, and collaborate.",
 
@@ -10,6 +10,7 @@
 		"techStackDescription": "I mostly use Vue, Vite, TypeScript, SASS, and Supabase to build web applications but work with a wide range of technologies and tools like Nuxt, Svelte, Tailwind, Figma... ",
 		"techStackDescription2": "I'm always learning new things and experimenting with new technologies. Currently tinkering with",
 
+		"myOpenSourceProjects": "Open Source Stuff",
 		"myProjects": "Hobby Projects",
 		"myDesigns": "Designs",
 
