@@ -1,7 +1,7 @@
 {
 	"home": {
 		"hey": "Hey, I'm Onur 👋",
-		"intro": "A front-end developer and designer with more than 5 years of experience in web development and design.",
+		"intro": "A front-end developer and designer with more than 6 years of experience in web development and design.",
 		"intro2": "I speak Turkish, English, and Japanese. I am currently living in Tokyo, Japan.",
 		"currentlyWorkingOn": "I'm currently working on",
 		"atsumariDescription": "A virtual gathering space where office workers, students, and event participants can gather, talk, share, and collaborate.",
@@ -13,6 +13,12 @@
 		"myOpenSourceProjects": "Open Source Stuff",
 		"myProjects": "Hobby Projects",
 		"myDesigns": "Designs",
+
+		"firstImplementationOfAtsumari": "First implementation of Atsumari ",
+		"oldCodeBase": "Old code base",
+
+		"karpuz": "Opinionated Nuxt 3 Starter Template",
+		"portfolioV2": "Older projects",
 
 		"title": "Onur Usluca | Web developer / designer"
 	},

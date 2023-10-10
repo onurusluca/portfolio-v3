@@ -5,6 +5,7 @@
 	import atsumari from '../lib/assets/images/projects/atsumari/atsumari.png';
 	import atsumari2 from '../lib/assets/images/projects/atsumari/atsumari-2.png';
 
+	import portfolioV2 from '../lib/assets/images/projects/portfolio-v2.png';
 	import denmou from '../lib/assets/images/projects/denmou.png';
 	import ongaku from '../lib/assets/images/projects/ongaku.png';
 	import egaki from '../lib/assets/images/projects/egaki.png';
@@ -35,7 +36,7 @@
 
 	<p class="currently-working-on">
 		{$t('home.currentlyWorkingOn')}
-		<a target="_blank" href="/atsumari">Atsumari</a> -
+		<!-- <a target="_blank" href="/atsumari">Atsumari</a> --> Atsumari -
 		<i>{$t('home.atsumariDescription')}</i>
 	</p>
 
@@ -72,31 +73,42 @@
 
 	<h2>{$t('home.myProjects')}</h2>
 	<div class="hobby-projects">
-		<a target="_blank" class="no-image-project" href="https://github.com/onurusluca/atsumari">
-			First implementation of Atsumari. <br /> Old codebase.
+		<a
+			target="_blank"
+			class="no-image-project"
+			href="https://github.com/onurusluca/atsumari"
+			title="Atsumari"
+		>
+			{$t('home.firstImplementationOfAtsumari')}
+			-
+			<br />
+			{$t('home.oldCodeBase')}
 		</a>
 
 		<a
 			target="_blank"
 			class="no-image-project"
 			href="https://github.com/onurusluca/nuxt3-boilerplate-karpuz"
+			title="Karpuz"
 		>
-			Karpuz 🍉 - Opinionated Nuxt 3 Starter
-		</a>
-		<a target="_blank" class="no-image-project" href="https://portfolio-v2-onurusluca.vercel.app/">
-			Portfolio V2
+			Karpuz 🍉 - {$t('home.karpuz')}
 		</a>
 
-		<a target="_blank" href="https://github.com/onurusluca/denmou-company">
+		<a target="_blank" href="https://portfolio-v2-onurusluca.vercel.app/" title="Portfolio v2">
+			<img src={portfolioV2} alt="Portfolio v2" />
+		</a>
+		<a target="_blank" href="https://github.com/onurusluca/denmou-company" title="Denmou">
 			<img src={denmou} alt="Denmou" />
 		</a>
-		<a target="_blank" href="https://github.com/onurusluca/egaki">
+		<a target="_blank" href="https://github.com/onurusluca/egaki" title="Egaki">
 			<img src={egaki} alt="Egaki" />
 		</a>
-		<a target="_blank" href="https://github.com/onurusluca/ongaku-music-player"
-			><img src={ongaku} alt="Ongaku" />
+		<a target="_blank" href="https://github.com/onurusluca/ongaku-music-player" title="Ongaku">
+			<img src={ongaku} alt="Ongaku" />
 		</a>
-		<a target="_blank" href="https://kaidanfit.netlify.app/"><img src={kaidan} alt="Kaidan" /> </a>
+		<a target="_blank" href="https://kaidanfit.netlify.app/" title="Kaidan">
+			<img src={kaidan} alt="Kaidan" />
+		</a>
 	</div>
 
 	<hr />
@@ -213,12 +225,21 @@
 				justify-content: center;
 				text-align: center;
 
+				text-decoration: none;
+
 				width: 21rem;
 				height: 12.5rem;
 				border-radius: 0.4rem;
 				border: 1px solid var(--accent);
+				opacity: 0.8;
+				font-weight: bold;
 
 				cursor: pointer;
+
+				&:hover {
+					color: var(--accent);
+					opacity: 1;
+				}
 			}
 			a {
 				img {

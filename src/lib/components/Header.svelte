@@ -3,6 +3,7 @@
 	import logo from '$lib/assets/images/logo.png';
 	import LocalesDropdown from '$lib/components/LocalesDropDown.svelte';
 	import { t, locale, locales } from '$lib/locales/i18n';
+	import GithubIcon from '../components/icons/GithubIcon.svelte';
 
 	/**
 	 * Handle change of the locale.
@@ -22,7 +23,7 @@
 
 	<nav>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			<!-- <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">
 					{$t('nav.home')}
 				</a>
@@ -31,8 +32,13 @@
 				<a href="/blog">
 					{$t('nav.blog')}
 				</a>
+			</li> -->
+
+			<li>
+				<a href="https://github.com/onurusluca" target="_blank">
+					<GithubIcon />
+				</a>
 			</li>
-			<!-- Border -->
 			<li><span class="separator" /></li>
 			<li>
 				<!-- Change language -->
