@@ -7,8 +7,6 @@
 	import { inject } from '@vercel/analytics';
 
 	inject({ mode: dev ? 'development' : 'production' });
-
-	//	import { t, locale, locales } from '$lib/locales/i18n';
 </script>
 
 <div class="app">

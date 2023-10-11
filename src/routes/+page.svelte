@@ -268,6 +268,9 @@
 						width: 100%;
 					}
 				}
+				.no-image-project {
+					width: 100%;
+				}
 			}
 
 			@media (max-width: 576px) {
