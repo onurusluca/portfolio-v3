@@ -1,15 +1,36 @@
 {
 	"home": {
-		"hey": "やぁ、私はオヌル 👋",
-		"intro": "ウェブ開発をやっています。",
+		"hey": "こんにちは、私はOnur(オヌル)です👋",
+		"intro": "ウェブ開発とデザインに6年以上の経験を持つフロントエンドデベロッパーです。",
+		"intro2": "私はトルコ語、英語、日本語を話し、現在は日本の東京に住んでいます。",
+		"currentlyWorkingOn": "現在取り組んでいるのは",
+		"atsumariDescription": "オフィスワーカー、学生、イベント参加者が集まり、話し合い、共有し、協力できる仮想的な集まりの場です。",
 
-		"title": "Onur Usluca | ウェブ開発者 / デザイナー"
+		"techStackTitle": "テックスタック",
+		"techStackDescription": "主にVue、Vite、TypeScript、SASS、Supabaseを使用してウェブアプリケーションを構築していますが、Nuxt、Svelte、Tailwind、Figmaなど、多くのテクノロジーやツールを使用しています。",
+		"techStackDescription2": "常に新しいことを学び、新しいテクノロジーを試しています。現在は",
+
+		"myOpenSourceProjects": "オープンソースのもの",
+		"myProjects": "趣味のプロジェクト",
+		"myDesigns": "デザイン",
+
+		"firstImplementationOfAtsumari": "集まりの最初の実装",
+		"oldCodeBase": "旧コードベース",
+
+		"karpuz": "オピニオンの強いNuxt 3スターターテンプレート",
+		"portfolioV2": "古いプロジェクト",
+
+		"title": "オヌール・ウスルカ | ウェブデベロッパー / デザイナー"
 	},
 	"nav": {
 		"home": "ホーム",
-		"about": "私について",
-		"contact": "連絡先",
+		"blog": "ブログ",
+		"contact": "コンタクト",
 		"projects": "プロジェクト",
 		"resume": "履歴書"
+	},
+
+	"misc": {
+		"and": "そして"
 	}
 }
