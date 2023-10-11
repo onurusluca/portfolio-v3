@@ -1,36 +1,36 @@
 {
 	"home": {
-		"hey": "Hey, I'm Onur 👋",
-		"intro": "A front-end developer and designer with more than 6 years of experience in web development and design.",
-		"intro2": "I speak Turkish, English, and Japanese. I am currently living in Tokyo, Japan.",
-		"currentlyWorkingOn": "I'm currently working on",
-		"atsumariDescription": "A virtual gathering space where office workers, students, and event participants can gather, talk, share, and collaborate.",
+		"hey": "こんにちは、私はOnur(オヌル)です👋",
+		"intro": "ウェブ開発とデザインに6年以上の経験を持つフロントエンドデベロッパーです。",
+		"intro2": "私はトルコ語、英語、日本語を話し、現在は日本の東京に住んでいます。",
+		"currentlyWorkingOn": "現在取り組んでいるのは",
+		"atsumariDescription": "オフィスワーカー、学生、イベント参加者が集まり、話し合い、共有し、協力できる仮想的な集まりの場です。",
 
-		"techStackTitle": "Tech Stack",
-		"techStackDescription": "I mostly use Vue, Vite, TypeScript, SASS, and Supabase to build web applications but work with a wide range of technologies and tools like Nuxt, Svelte, Tailwind, Figma... ",
-		"techStackDescription2": "I'm always learning new things and experimenting with new technologies. Currently tinkering with",
+		"techStackTitle": "テックスタック",
+		"techStackDescription": "主にVue、Vite、TypeScript、SASS、Supabaseを使用してウェブアプリケーションを構築していますが、Nuxt、Svelte、Tailwind、Figmaなど、多くのテクノロジーやツールを使用しています。",
+		"techStackDescription2": "常に新しいことを学び、新しいテクノロジーを試しています。現在は",
 
-		"myOpenSourceProjects": "Open Source Stuff",
-		"myProjects": "Hobby Projects",
-		"myDesigns": "Designs",
+		"myOpenSourceProjects": "オープンソースのもの",
+		"myProjects": "趣味のプロジェクト",
+		"myDesigns": "デザイン",
 
-		"firstImplementationOfAtsumari": "First implementation of Atsumari ",
-		"oldCodeBase": "Old code base",
+		"firstImplementationOfAtsumari": "集まりの最初の実装",
+		"oldCodeBase": "旧コードベース",
 
-		"karpuz": "Opinionated Nuxt 3 Starter Template",
-		"portfolioV2": "Older projects",
+		"karpuz": "オピニオンの強いNuxt 3スターターテンプレート",
+		"portfolioV2": "古いプロジェクト",
 
-		"title": "Onur Usluca | Web developer / designer"
+		"title": "オヌール・ウスルカ | ウェブデベロッパー / デザイナー"
 	},
 	"nav": {
-		"home": "Home",
-		"blog": "Blog",
-		"contact": "Contact",
-		"projects": "Projects",
-		"resume": "Resume"
+		"home": "ホーム",
+		"blog": "ブログ",
+		"contact": "コンタクト",
+		"projects": "プロジェクト",
+		"resume": "履歴書"
 	},
 
 	"misc": {
-		"and": "and"
+		"and": "そして"
 	}
 }
